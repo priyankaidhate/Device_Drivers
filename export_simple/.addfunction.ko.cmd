@@ -1,0 +1,1 @@
+cmd_/home/pri/DeviceDrivers/program/export_simple/addfunction.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/pri/DeviceDrivers/program/export_simple/addfunction.ko /home/pri/DeviceDrivers/program/export_simple/addfunction.o /home/pri/DeviceDrivers/program/export_simple/addfunction.mod.o;  true

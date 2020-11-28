@@ -1,0 +1,1 @@
+cmd_/home/pri/DeviceDrivers/program/export_simple/addfunction.mod := { echo  /home/pri/DeviceDrivers/program/export_simple/addfunction.o; echo; } > /home/pri/DeviceDrivers/program/export_simple/addfunction.mod

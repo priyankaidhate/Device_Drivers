@@ -1,0 +1,1 @@
+cmd_/home/pri/DeviceDrivers/program/export_simple/average.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/pri/DeviceDrivers/program/export_simple/average.ko /home/pri/DeviceDrivers/program/export_simple/average.o /home/pri/DeviceDrivers/program/export_simple/average.mod.o;  true

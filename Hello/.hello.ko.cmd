@@ -1,0 +1,1 @@
+cmd_/home/pri/DeviceDrivers/program/Hello/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/pri/DeviceDrivers/program/Hello/hello.ko /home/pri/DeviceDrivers/program/Hello/hello.o /home/pri/DeviceDrivers/program/Hello/hello.mod.o;  true

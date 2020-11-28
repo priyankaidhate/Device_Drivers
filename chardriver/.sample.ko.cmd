@@ -1,0 +1,1 @@
+cmd_/home/pri/DeviceDrivers/program/chardriver/sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/pri/DeviceDrivers/program/chardriver/sample.ko /home/pri/DeviceDrivers/program/chardriver/sample.o /home/pri/DeviceDrivers/program/chardriver/sample.mod.o;  true
